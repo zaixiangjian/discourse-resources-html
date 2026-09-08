@@ -1,0 +1,45 @@
+resources_html:
+  resources_html_enabled:
+    default: true
+    client: false
+  resources_html_columns:
+    default: 3
+    min: 1
+    max: 3
+    client: false
+  resources_html_font_size:
+    default: 13
+    min: 10
+    max: 24
+    client: false
+  resources_html_footer_content:
+    default: |
+      [example](https://example.com)
+      © 2026 All Rights Reserved.
+      [关于我们](https://example.com)
+    type: string
+    textarea: true
+    client: false
+  resources_html_content:
+    default: |
+      # 赞助商
+
+      ## @123
+      官网：https://example.com
+      说明：简单说明
+
+      ## @456
+      说明：简单说明
+
+      # 友情链接
+
+      ## 某某博客
+      官网：https://example.com
+      说明：简单说明
+
+      ## 某某博客2
+      官网：https://example.com
+      说明：简单说明
+    type: string
+    textarea: true
+    client: false

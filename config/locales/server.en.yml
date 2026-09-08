@@ -1,0 +1,18 @@
+en:
+  site_settings:
+    resources_html_enabled: "Enable standalone resources page"
+    resources_html_columns: "Resource cards per row"
+    resources_html_font_size: "Resources page font size"
+    resources_html_footer_content: "Resources page footer Markdown content"
+    resources_html_content: "Resources page Markdown content"
+  site_settings_description:
+    resources_html_enabled: "When enabled, /summary/resources returns a standalone HTML resources page."
+    resources_html_columns: "Cards per row, from 1 to 3."
+    resources_html_font_size: "Description text size in px, from 10 to 24. Username and website button scale proportionally."
+    resources_html_footer_content: "Centered footer content shown at the bottom. Supports plain text and [label](https://example.com) / [contact](mailto:your@email.com) links; years are written manually, not generated automatically."
+    resources_html_content: "Markdown-style content: # Section; ## @username; website: optional; description."
+  admin_js:
+    admin:
+      site_settings:
+        categories:
+          resources_html: "Standalone Resources Page"
